@@ -4,7 +4,7 @@
 
 ## Introduction to Atmospheric Entry
 
-[Handout for "Introduction to Atmospheric Entry"](HAAD-D01_Handout.md)
+[Handout](HAAD-D01_Handout.md)
 
 ## Fundamentals of Spaceflight Mechanics for Atmospheric Entry
 
