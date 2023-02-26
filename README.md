@@ -1,1 +1,1 @@
-# aed-handout
+# Just click Handouts.md
