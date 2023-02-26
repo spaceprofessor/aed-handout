@@ -1,6 +1,6 @@
 # Indroduction to Atmospheric Entry
 
-*This website was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald*
+*This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald*
 
 ![](figures/haae-d01_intro_Seite_01.png)
 
