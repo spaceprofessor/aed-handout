@@ -4,7 +4,7 @@
 
 ![](figures/haae-d01_intro_Seite_01.png)
 
-## Atmospheric Entry Versus Re-Entry
+# Atmospheric Entry Versus Re-Entry
 
 ![](figures/haae-d01_intro_Seite_02.png)
 
@@ -33,7 +33,7 @@ This lecture is divided into the three parts:
 
 You can see that the atmospheric probe of the Galileo mission was built like a nut. After the heat shield was not required anymore, it opened up and released the descend module. This was further decelerated with a parachute. Also note the spin vanes, aerodynamical surfaces that were used to spin up the descend module like a spinning top, so that it has more stability during entry.
 
-## Atmospheric Entry Paths
+# Atmospheric Entry Trajectories
 
 ---
 
@@ -87,13 +87,72 @@ You can see that the atmospheric probe of the Galileo mission was built like a n
 
 ![](figures/haae-d01_intro_Seite_19.png)
 
-## The "Thermal Barrier"
+---
 
-$V_0$
+![](figures/haae-d01_intro_Seite_20.png)
 
-$\frac{a}{b}=c$
+---
 
-## References
+![](figures/haae-d01_intro_Seite_21.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_22.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_23.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_24.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_25.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_26.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_27.png)
+
+
+# The "Thermal Barrier"
+
+![](figures/haae-d01_intro_Seite_28.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_29.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_30.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_31.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_32.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_33.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_34.png)
+
+---
+
+![](figures/haae-d01_intro_Seite_35.png)
+
+# References
 
 ![](figures/haae-d01_intro_Seite_36.png)
 
