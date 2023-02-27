@@ -138,7 +138,7 @@ If you are above the overshoot boundary, the drag would be too low to slow you d
 
 ![](figures/haae-d01_intro_Seite_26.png)
 
-We are lucky that the Earth is not more massive. For slightly largee planets, the overshoot boundary can fall below the undershoot boundary. In this inverted "entry corridor", you die from a too large deceleration, while not being decelerated enough to not head back into space.
+We are lucky that the Earth is not more massive. For slightly larger planets, the overshoot boundary can fall below the undershoot boundary. In this inverted "entry corridor", you die from a too large deceleration, while not being decelerated enough to not head back into space.
 
 ---
 
