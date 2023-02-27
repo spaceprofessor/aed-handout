@@ -66,13 +66,13 @@ During its descent, ESA's Huygens probe made many spectacular images. This panor
 
 ![](figures/haae-d01_intro_Seite_12.png)
 
-The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe. The temperature at the landing site was -179°C and the pressure was 1.5 mbar.
+The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe after touchdown. The temperature at the landing site was -179°C and the pressure was 1.5 mbar.
 
 ---
 
 ![](figures/haae-d01_intro_Seite_13.png)
 
-The subject of "atmospheric entry" is not only useful for the entry of space vehicles. There are also other bodies that make an atmospheric entry, like asteroids. The upper image shows an asteroid just before it hit the Russian city Chelyabinsk in 2013. The lower image is an artist impression of the asteroid that, about 66 million years ago, wiped the dinosaurs off the face of this planet. The methods that we develop in this course can also be applied to calculate the atmospheric entry of asteroids.
+The subject of "atmospheric entry" is not only useful for the entry of space vehicles. There are also other bodies that make an atmospheric entry, asteroids, for example. The upper image shows an asteroid just before it hit the Russian city Chelyabinsk in 2013. The lower image is an artist impression of the asteroid that, about 66 million years ago, wiped the dinosaurs off the face of this planet. The methods that we develop in this course can also be applied to calculate the atmospheric entry of asteroids.
 
 ---
 
@@ -82,7 +82,7 @@ The subject of "atmospheric entry" is not only useful for the entry of space veh
 
 ![](figures/haae-d01_intro_Seite_15.png)
 
-You cannot break a space vehicle to low velocities before entering Earth's atmosphere. The orbital velocity in a low-Earth orbit (LEO) is $\gtrapprox$ 7.5 km/s. To reach this high velocity, a huge launch vehicle is needed. If you would want to brake a spacecraft to a low velocity before entering the atmosphere, you would need a rocket of about the same size, but in space! There is no friction in the vacuum of space! Therefore, braking requires propellant ... a lot of propellant.
+You cannot break a space vehicle to low velocities before entering Earth's atmosphere. The orbital velocity in a low-Earth orbit (LEO) is $\gtrapprox$ 7.5 km/s. To reach this high velocity, a huge launch vehicle is needed. If you would want to brake a spacecraft to a low velocity before entering the atmosphere, you would need a rocket of about the same size, but in space!!! There is no friction in the vacuum of space! Therefore, braking requires propellant ... lots of propellant.
 
 ---
 
@@ -141,6 +141,8 @@ If you are above the overshoot boundary, the drag would be too low to slow you d
 ---
 
 ![](figures/haae-d01_intro_Seite_27.png)
+
+We are lucky that the Earth is not more massive. For large planets, the overshoot boundary can fall below the undershoot boundary. In this inverted "entry corridor", you die from a too large deceleration, while not being decelerated enough to not head back into space.
 
 
 # The "Thermal Barrier"
