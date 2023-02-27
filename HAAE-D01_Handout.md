@@ -1,6 +1,6 @@
 # Indroduction to Atmospheric Entry
 
-*This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald*
+*This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
 ![](figures/haae-d01_intro_Seite_01.png)
 
@@ -96,7 +96,7 @@ You cannot break a space vehicle to low velocities before entering Earth's atmos
 
 ![](figures/haae-d01_intro_Seite_18.png)
 
-To brake, the thrust force of the retro-rocket must be against the velocity direction, therefore this is called "retro".
+To brake, the thrust force of the retro-rocket must be against the entry body's velocity direction. This is why it is called "retro".
 
 ---
 
@@ -110,7 +110,7 @@ To brake, the thrust force of the retro-rocket must be against the velocity dire
 
 ![](figures/haae-d01_intro_Seite_21.png)
 
-You can see that the lift-to-drag ratio, L/D, is not constant but varies along the entry path. More on this in the lecture of Prof. Havermann
+You can see that the lift-to-drag ratio, L/D, is not constant but varies along the entry trajectory. More on this in the lecture of Prof. Havermann
 
 ---
 
@@ -160,7 +160,7 @@ We will dive more into the calculation of spacecraft velocities in the second le
 
 ![](figures/haae-d01_intro_Seite_30.png)
 
-The index "atm" denotes the atmospheric free-stream conditions and the index "s" denotes the conditions at the stagnation point. A free-stream particle that impacts the stagnation point has two "forms" of energy that change along the way of the particle, thermal energy and kinetic energy (note that thermal energy is due to the random motion of particles, in all directions, while kinetic energy is due to the directed motion of particles). At the stagnation point, the velocity of the particles becomes zero. Please check that in eq.~(7), $T_\mathsf{atm}$ is really much smaller than $\frac{V_\infty^2}{2c_p}$ and can therefore be neglected
+The index "atm" denotes the atmospheric free-stream conditions and the index "s" denotes the conditions at the stagnation point. A free-stream volume element that impacts the entry vehicle at the stagnation point has two "forms" of energy that change along its path, thermal energy and kinetic energy (note that thermal energy is due to the random motion of particles, in all directions, while kinetic energy is due to the directed motion of particles). At the stagnation point, the velocity of the volume element becomes zero. Please verify that in eq.~(7), $T_\mathsf{atm}$ is really much smaller than $\frac{V_\infty^2}{2c_p}$ and can therefore be neglected.
 
 ---
 
@@ -174,17 +174,19 @@ The index "atm" denotes the atmospheric free-stream conditions and the index "s"
 
 ![](figures/haae-d01_intro_Seite_33.png)
 
+Below an altitude of 100 km, air consists mainly of molecular nitrogen and molecular oxygen. When air (at $\approx$ 1 bar pressure) is heated to $\approx$ 2500 K, the atomic bonds between the two atoms in oxygen molecules start to break, i.e., the molecular oxygen begins to dissociate into atomic oxygen. At $\approx$ 4000 K, the oxygen is almost completely dissociated, and the molecular nitrogen begins to dissociate into atomic nitrogen. At a temperature of $\approx$ 9000 K, nitrogen is almost completely dissociated. As the temperature continues to rise, the atomic collisions become even more energetic, resulting in ionization. This process involves the removal of one or more electrons from the atoms, leading to the formation of a plasma. (Note: "no reactions" below 2500 K just means that there are no *chemical* reactions. The atomic bonds in the molecules, however, will beome vibrationally excited.)
+
 ---
 
 ![](figures/haae-d01_intro_Seite_34.png)
 
-Below an altitude of 100 km, the air primarily consists of molecular nitrogen and molecular oxygen. If a significant amount of energy is added to this gas mixture, the atomic bond between two atoms in a molecule becomes vibrationally excited. This vibrationally bound energy is not available to increase the temperature. If more energy is added, the molecules dissociate, meaning the atomic bond breaks. First, the bond of oxygen dissociates, followed by the bond of nitrogen. This process also counteracts a temperature increase. At even higher energy input, the individual atoms become ionized, meaning one or more electrons are knocked away from them due to collisions. The diagram illustrates the entry path of the space shuttle, depicting its velocity versus altitude. Due to the initially high but gradually decreasing entry velocity, these real gas effects occur in reverse order. First, nitrogen is dissociated to a considerable extent, while oxygen is completely dissociated. Later, the lower energy input is only sufficient for dissociating oxygen, and still later, only for vibrational excitation.
+When a significant amount of energy is added to air, it heats up and the atomic bond between the two atoms in a molecule becomes vibrationally excited. This vibrational energy is not available to raise the temperature. If more energy is added, as described above, the molecules dissociate and eventually become ionized. These processes consume energy and thus counteract the temperature increase. The diagram illustrates the entry trajectory of the Space Shuttle, plotting its velocity against altitude. Because of the initially high but gradually decreasing entry velocity, these real gas effects occur in reverse order. First, nitrogen is dissociated to a considerable extent, while oxygen is dissociated completely. Later, the lower energy input is sufficient only for oxygen dissociation, and still later, only for vibrational excitation.
 
 ---
 
 ![](figures/haae-d01_intro_Seite_35.png)
 
-The diagram on this slide depicts the shock-layer temperature over the entry velocity. It also compares a perfect gas to a real gas. The entry velocities of several space missions are indicated. As you can see, the perfect-gas assumption yields much higher temperatures than obtained in reality. Nevertheless, the temperatures are still very high, almost 8000 K for an entry from LEO and almost 12000 K for a lunar return. Note that for such high temperatures, it does not really make a difference whether the temperatures are given in K or in °C.
+The diagram above depicts the shock-layer temperature over the entry velocity. It also compares a perfect gas to a real gas. The entry velocities of several space missions are indicated on the horizontal axis. As you can see, the perfect-gas assumption yields much higher temperatures than are obtained in reality. Nevertheless, the temperatures are still very high, almost 8000 K for an entry from LEO and almost 12000 K for a lunar return. Note that for such high temperatures, it does not really make a difference whether the temperatures are given in K or in °C.
 
 # References
 
