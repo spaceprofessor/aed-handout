@@ -8,7 +8,7 @@
 
 ## Fundamentals of Spaceflight Mechanics for Atmospheric Entry
 
-Handout is not yet available.
+[Handout](HAAE-D02_Handout.md)
 
 ## Ballistic Atmospheric Entry
 
