@@ -8,12 +8,12 @@
 
 ![](figures/haae-d01_intro_Seite_02.png)
 
-Why am I teaching you atmospheric entry dynamics? Well, in spaceflight, not all things that go up must come down. But many spacecraft do. This cartoon image shows one problem that you may encounter if you "jump over the Moon" or, more realistically, return from the Moon, like the Apollo missions, or even from Mars. You may burn up in the atmosphere. This can already happen to you if you return from the International Space Station, ISS, if you enter too steeply, as we will see later. By the way, for most satellites in a low-Earth orbit (LEO), burning up is the desired fate. It is better than staying in orbit as a piece of space debris. Therefore, atmospheric entry is a vitally important subject.
+Why am I teaching you atmospheric entry dynamics? Well, in spaceflight, not all things that go up must come down. But many spacecraft do. This cartoon image shows one problem that you may encounter if you "jump over the Moon" (like a children's song suggests) or, more realistically, return from the Moon, like the Apollo missions, or even from Mars. You may burn up in the atmosphere. This can already happen to you if you return from the International Space Station, ISS, if you enter too steeply, as we will see later. By the way, for most satellites in a low-Earth orbit (LEO), burning up is the desired fate. It is better than staying in orbit as a piece of space junk. Therefore, atmospheric entry is a vitally important subject.
 
 This lecture is divided into the three parts: 
-- In the first part, I will give you some introductory examples and discuss why the term atmospheric entry is better than the term re-entry. 
-- In the second part, we will have a look to the different types of entry trakectories (a trajectory is the path that an object follows). 
-- In the third and last part, we will talk about the thermal problems that are associated with atmospheric entry.
+- In the first part, I will give you some introductory examples and discuss why the term atmospheric entry is better than the term re-entry
+- In the second part, we will have a look to the different types of entry trakectories (a trajectory is the path that an object follows)
+- In the third and last part, we will talk about the thermal problems that are associated with atmospheric entry
 
 ---
 
@@ -43,7 +43,7 @@ You can see that the atmospheric probe of the Galileo mission was built like a n
 
 ![](figures/haae-d01_intro_Seite_08.png)
 
-This image gives an impression of the complexity of the MER cruise stage. Look at all the different parts. What may be the purpose of all the different parts?
+This image gives an impression of the complexity of the MER cruise stage. Look at all the different parts. What may have been the purpose of all the different parts?
 
 
 ---
@@ -60,13 +60,13 @@ This image gives an impression of the complexity of MER's EDL sequence. Look at 
 
 ![](figures/haae-d01_intro_Seite_11.png)
 
-During its descent, ESA's Huygens probe made many spectacular images. This panorama shows a lake with a shoreline and rivers. Before Huygens, there was much speculation about whether or not such surface features exist on Titan, but the Huygens probe made the case clear. The liquid, however, is not water but hydrocarbons. The surface is much too cold for liquid water.
+During its descent, ESA's Huygens probe made many spectacular images. This panorama shows a lake with a shoreline and rivers. Before Huygens, there was much speculation about whether or not such surface features exist on Titan, but the Huygens probe made the case clear. The liquid, however, is not water but hydrocarbons. The surface of Titan is much too cold for liquid water (-179°C).
 
 ---
 
 ![](figures/haae-d01_intro_Seite_12.png)
 
-The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe. The temperature at the landing site was -179.3 °C and the pressure was 1468 mbar.
+The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe. The temperature at the landing site was -179°C and the pressure was 1.5 mbar.
 
 ---
 
