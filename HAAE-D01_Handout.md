@@ -194,3 +194,7 @@ The diagram above depicts the shock-layer temperature over the entry velocity. I
 ![](figures/haae-d01_intro_Seite_36.png)
 
 You do not have to get and read the references on this slide. However, it is mandatory to cite the sources, from which you use the material (and especially images) in your own work. Therefore, I have done it. If your professional life leads you in this direction, however, you find here a collection of books you may wish to get and read.
+
+![](figures/haae-d01_intro_Seite_37.png)
+
+Please note that I only exchange slides that have changes. Therefore, unchanged slides may show an older version number.
