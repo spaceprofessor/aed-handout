@@ -1,5 +1,5 @@
 # Fundamentals of Spaceflight Mechanics for Atmospheric Entry
-**Version 23.0, Last Update: 27 Feb 2023**
+**Version 23.0, Last Update: 09 Apr 2023**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
@@ -13,7 +13,7 @@ For atmospheric entry calculations, the entry velocity $V_0$ of an entry vehicle
 
 Note for bullet point 3: In the so-called two-body problem (e.g. Earth and spacecraft), an ellipse is a closed, repeating path. A hyperbola is an open path that - mathematically - comes from infinity and goes back to infinity. (Of course, infinity does not exist in reality, but the difference between very veery veeery far away and infinitely far away is practically negligible.) It is better to call open paths trajectories, since the word *orbit* (and *orbiting* and *orbiter*) sounds "repeating".
 
-Note for bullet point 4: We use the gravitational parameter $\mu$ of a planet because the masses $M$ of the Earth and the planets are not well known. Compared to other constants like the speed of light, the gravitational constant $G$ is also not very well known, with only 6 relevant digits. This is not precise enough for spaceflight. However, their product $\mu = GM$ is known to a very high accuracy. Why is that? Because this is the *only* parameter that "acts" on spacecraft, and so it can be measured with a very high accuracy. If we know $\mu$, we do not have to care if $G$ is a bit smaller and $M$ is a bit larger or vice versa, only their product, $\mu$, is important.
+Note for bullet point 4: We use the gravitational parameter $\mu$ of a planet because the masses $M$ of the Earth and the planets are not well known. Compared to other constants like the speed of light, the gravitational constant $G$ is also not very well known, with only 6 significant digits. This is not precise enough for spaceflight. However, their product $\mu = GM$ is known to a very high precision. Why is that? Because this is the *only* parameter that "acts" on spacecraft, and so it can be measured very precisely. If we know $\mu$, we do not have to care if $G$ is a bit smaller and $M$ is a bit larger or vice versa, only their product, $\mu$, is important.
 
 # Conic Sections
 
@@ -43,7 +43,7 @@ Note that the vis-viva equation is the most important equation in spaceflight dy
 
 ![](figures/haae-d02_spaceflight_Seite_07.png)
 
-According to Kepler's first law, all (closed) orbits are ellipses with the central body at one of the two foci (plural of "focus") of the ellipse (in the sketch above, this is at the origin of the coordinate system). The orbit's closest point to the central body is called pericenter, the farthest point is called apocenter (now it's payback for not having ancient greek in school). The distance between pericenter and apocenter is the so-called major axis. However, as we are typically using the radius instead of the diameter for circles, we are here also using half of the major axis for our calculations, the so-called **semi-major axis** $a$. So $a$ defines the *size* of the ellipse. Another important parameter for an ellipse is the so-called **eccentricity**. It defines how "squashed" an ellipse is (the distance between a focus and the center point of the ellipse is $c = e \cdot a$). So it defines the *shape* of an ellipse. The pericenter radius is $r_p=a(1-e)$ and the apocenter radius is $r_a=a(1+e)$. The last *important* parameter is the so-called **true anomaly** $f$, the angle which defines the *location* of a spacecraft on the ellipse. The true anomaly is the angle between the line from the central body to the pericenter and the line from the central body to the spacecraft. Note that some authors use $\theta$ for the true anomaly, while others use $\varphi$.
+According to Kepler's first law, all (closed) orbits are ellipses with the central body at one of the two foci (plural of "focus") of the ellipse. The orbit's closest point to the central body is called periapsis (or pericenter), the farthest point is called apoapsis (or apocenter). The distance between periapsis and apoapsis is the so-called major axis. However, as we are typically using the radius instead of the diameter for circles, we are here also using half of the major axis for our calculations, the so-called **semi-major axis** $a$. So $a$ defines the *size* of the ellipse. Another important parameter for an ellipse is the so-called **eccentricity**. It defines how "squashed" an ellipse is (the distance between a focus and the center point of the ellipse is $c = e \cdot a$). So it defines the *shape* of an ellipse. The periapsis radius is $r_p=a(1-e)$ and the apoapsis radius is $r_a=a(1+e)$. The last *important* parameter is the so-called **true anomaly** $f$, the angle which defines the *location* of a spacecraft on the ellipse. The true anomaly is the angle between the line from the central body to the periapsis and the line from the central body to the spacecraft. Note that some authors use $\theta$ for the true anomaly, while others use $\varphi$ or $\nu$.
 
 If you want to know more on elliptic orbits, please refer to https://en.wikipedia.org/wiki/Elliptic_orbit, or, if you are crazy enough to be even more interested in ellipses, please consult https://en.wikipedia.org/wiki/Ellipse.
 
@@ -57,13 +57,9 @@ Note that the equation for the circular orbit is the one that we have used in th
 
 ![](figures/haae-d02_spaceflight_Seite_09.png)
 
-One can use the vis-viva equation also for hyperbolic orbits, but must consider that the semi-major axis $a$ is a negative quantity.
-
 ---
 
 ![](figures/haae-d02_spaceflight_Seite_10.png)
-
-The parameter $a$, however, is for hyperbolic trajectories very unintuitive and should be replaced by a more intuitive parameter. We can use the velocity at infinity, the so-called hyperbolic excess velocity, to do this. The hyperbolic excess velocity is $V$ for $r\rightarrow\infty$ and thus designated as $V_\infty$. This way, the vis-viva equation becomes eq. (11) for hyperbolic orbits (and *only* for hyperbolic orbits). Knowing $V_\infty$, you can calculate $V$ for every $r$. Or, knowing $V$ at one single $r$, you can calculate $V_\infty$. 
 
 # Orbital Maneuvers
 
@@ -73,13 +69,13 @@ The parameter $a$, however, is for hyperbolic trajectories very unintuitive and 
 
 ![](figures/haae-d02_spaceflight_Seite_12.png)
 
-The SOI-concept is used to transfer the analytically unsolvable three-body problem (Sun, Earth, spacecraft) or even four-body problem (including also the Moon) into a two-body problem, considering that typically only the gravitation of one body is dominant. Therefore, only one body is the central body and the other one is the so-called disturbing body, which "disturbs" the spacecraft's motion. But when we are somewhere between the Earth and Sun, which body should we use as "the central body" and which one as the disturbing body? Or: when do we fly around the Earth and when do fly around the Sun? The SOI-concept is a practical (and still accurate) solution for this problem. The Earth has a SOI with a radius determined by eq. (12). Inside the SOI, we fly around the Earth, outside, around the Sun. Note that this definition is quite arbitrary, but that should not bother us here in this course (but in the course Computational Spaceflight Dynamics). If you want to know more about the SOI-concept, please have a look at https://en.wikipedia.org/wiki/Sphere_of_influence_(astrodynamics).
+The SOI-concept is used to transfer the analytically unsolvable three-body problem (Sun, Earth, spacecraft) or even four-body problem (including also the Moon) into a two-body problem, considering that typically only the gravitation of one body is dominant. Therefore, only one body is the central body and all the other ones are so-called disturbing bodies, which "disturb" the spacecraft's motion. But when we are somewhere between the Earth and Sun, which body should we use as "the central body" and which one as the disturbing body? Or: when do we fly around the Earth and when do fly around the Sun? The SOI-concept is a practical (and still accurate) solution for this problem. The Earth has a SOI with a radius determined by eq. (12). Inside the SOI, we fly around the Earth, outside, around the Sun. Note that this definition is quite arbitrary, but that should not bother us here in this course (but in the course Computational Spaceflight Dynamics). If you want to know more about the SOI-concept, please have a look at https://en.wikipedia.org/wiki/Sphere_of_influence_(astrodynamics).
 
 ---
 
 ![](figures/haae-d02_spaceflight_Seite_13.png)
 
-I have calculated this image with the scientific software Mathematica to visualize the SOI-concept better. It shows the combined gravitational 2D-field of the Sun and an hypothetical very massive planet (with a mass of 0.001 solar masses, otherwise you would not see its tiny SOI). Look how simple the equation is that generates this image. Inside the small "funnel" you are in the SOI of the Earth, outside, you fly around the Sun.
+I have calculated this image with the scientific software Mathematica to visualize the SOI-concept better. It shows the combined gravitational 2D-field of the Sun and an hypothetical very massive planet (with a mass of 0.001 solar masses, otherwise you would not see its tiny SOI). Look how simple the equation is that generates this image. Inside the small "funnel" you are in the SOI of the planet, outside, you fly around the Sun.
 
 ---
 
