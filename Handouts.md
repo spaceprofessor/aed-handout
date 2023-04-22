@@ -12,7 +12,7 @@
 
 ## Ballistic Atmospheric Entry
 
-Handout is not yet available.
+[Handout](HAAE-D03_Handout.md)
 
 ## Lifting Atmospheric Entry
 
