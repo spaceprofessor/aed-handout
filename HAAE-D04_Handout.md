@@ -1,5 +1,5 @@
 # Lifting Atmospheric Entry
-**Version 23.0, Last Update: 10 May 2023**
+**Version 23.0, Last Update: 12 May 2023**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
@@ -7,7 +7,7 @@
 
 Having analysed the atmospheric entry of a vehicle neglecting gravity and lift, we will now include these forces in our analysis. This will give us more accurate results. However, we will not get formulae describing the results, only "curves". We will then compare the numerical results graphically with our previous analytical results, and also compare the numerical results for different parameters. Finally, we will look at examples of entry-level vehicles.
 
----
+# Lifting Entry Dynamics
 
 ![](figures/haae-d04_lifting_Seite_02.png)
 
@@ -55,7 +55,7 @@ All three of them can be expressed by equations that contain only the system var
 
 Careful! An non-rotating Earth does not mean that the entry vehicle does not rotate araund the Earth, it does. It means that the rotation of the Earth during the short amount of time that is required for the atmospheric entry is negligible. A "real" rotating Earth would make everything just much more complicated without changing the solutions a lot (remeber that Earths surface velocity due to rotation depends strongly on latitude).
 
----
+# Comparison of Ballistic and Lifting Entry
 
 ![](figures/haae-d04_lifting_Seite_09.png)
 
@@ -212,7 +212,7 @@ Another major advantage of lifting entry is that you have more control over your
 
 ![](figures/haae-d04_lifting_Seite_34.png)
 
----
+# Entry Vehicle Examples
 
 ![](figures/haae-d04_lifting_Seite_35.png)
 
@@ -241,3 +241,11 @@ As you can see, the $L/D$ is not constant but depends on the Mach number. As you
 And a last plot with real Space Shuttle values for altitude, velocity, and angle of attack (not flight path angle!). 
 
 This ends my part of the course. I wish you a good time for Prof. Havermann's part.
+
+# References
+
+![](figures/haae-d04_lifting_Seite_40.png)
+
+---
+
+![](figures/haae-d04_lifting_Seite_41.png)
