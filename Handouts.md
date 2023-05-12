@@ -16,4 +16,4 @@
 
 ## Lifting Atmospheric Entry
 
-Handout is not yet available.
+[Handout](HAAE-D04_Handout.md)
