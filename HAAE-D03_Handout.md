@@ -1,5 +1,5 @@
 # Ballistic Atmospheric Entry
-**Version 23.0, Last Update: 22 Apr 2023**
+**Version 24.0, Last Update: 18 Mar 2024**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
