@@ -13,7 +13,7 @@ Why am I teaching you atmospheric entry dynamics? Well, in spaceflight, not all 
 
 This lecture is divided into the three parts: 
 - In the first part, I will give you some introductory examples and discuss why the term atmospheric entry is better than the term re-entry
-- In the second part, we will have a look to the different types of entry trakectories (a trajectory is the path that an object follows)
+- In the second part, we will have a look to the different types of entry trajectories (a trajectory is the path that an object follows)
 - In the third and last part, we will talk about the thermal problems that are associated with atmospheric entry
 
 ---
