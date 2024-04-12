@@ -140,7 +140,3 @@ As you can see, in contrast to Earth, entering the atmospheres of Mars and Titan
 # References
 
 ![](figures/haae-d02_spaceflight_Seite_27.png)
-
----
-
-![](figures/haae-d02_spaceflight_Seite_28.png)
