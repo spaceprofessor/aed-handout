@@ -65,6 +65,7 @@ Good engineers plot such a function as a logarithmic plot (or as a double-logari
 ![](figures/haae-d03_ballistic_Seite_10.png)
 
 What is the "real" meaning of $H$? First we note that the argument of an exponential function must be unitless, a pure number. Then we insert $h=H$ into the equation. The result is $\rho(h=H)=\frac{\rho_0}{e}$, where $e = 2.71828$ is the Euler number. So $H$ is the altitude at which the density has decreased to $1/e$ times the value on the ground. 
+
 ---
 
 ![](figures/haae-d03_ballistic_Seite_11.png)
@@ -141,7 +142,7 @@ This diagram shows the influence of the flight path angle onto the maximal decel
 
 ![](figures/haae-d03_ballistic_Seite_25.png)
 
-This is just a magnification of the diagram on the last slide, so that you better see the range $0^\circ \le\gamma\le 20^\circ$. Note that these are not two straight lines, they still have the shape of a sine curve, although this is hardly visible (because for $\gamma\le 20^\circ$, the difference between $\gamma$ (in radians) and $\sin(\gamma)$ is less than $2.07\%$).
+This is just a magnification of the diagram on the last slide, so that you better see the range $0^\circ \le\gamma\le 10^\circ$. Note that these are not two straight lines, they still have the shape of a sine curve, although this is hardly visible (because for $\gamma\le 10^\circ$, the difference between $\gamma$ (in radians) and $\sin(\gamma)$ is less than $0.51\%$).
 
 ---
 
