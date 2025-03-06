@@ -1,5 +1,5 @@
 # Indroduction to Atmospheric Entry
-**Version 24.0, Last Update: 31 Mar 2024**
+**Version 24.0, Last Update: 06 Mar 2025**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
@@ -111,7 +111,7 @@ To brake, the thrust force of the retro-rocket must be against the entry body's 
 
 ![](figures/haae-d01_intro_Seite_21.png)
 
-You can see that the lift-to-drag ratio, L/D, is not constant but varies along the entry trajectory. More on this in the lecture of Prof. Havermann
+You can see that the lift-to-drag ratio, $L/D$, is not constant but varies along the entry trajectory. More on this in the lecture of Prof. Havermann
 
 ---
 
@@ -161,7 +161,7 @@ We will dive more into the calculation of spacecraft velocities in the second le
 
 ![](figures/haae-d01_intro_Seite_30.png)
 
-The index "atm" denotes the atmospheric free-stream conditions and the index "s" denotes the conditions at the stagnation point. A free-stream volume element that impacts the entry vehicle at the stagnation point has two "forms" of energy that change along its path, thermal energy and kinetic energy (note that thermal energy is due to the random motion of particles, in all directions, while kinetic energy is due to the directed motion of particles). At the stagnation point, the velocity of the volume element becomes zero. Please verify that in eq.~(7), $T_\mathsf{atm}$ is really much smaller than $\frac{V_\infty^2}{2c_p}$ and can therefore be neglected.
+The index "atm" denotes the atmospheric free-stream conditions and the index "s" denotes the conditions at the stagnation point. A free-stream volume element that impacts the entry vehicle at the stagnation point has two "forms" of energy that change along its path, thermal energy and kinetic energy (note that thermal energy is due to the random motion of particles, in all directions, while kinetic energy is due to the directed motion of particles). At the stagnation point, the velocity of the volume element becomes zero. Please verify that in eq. (7), $T_\mathsf{atm}$ is really much smaller than $\frac{V^2}{2c_p}$ and can therefore be neglected.
 
 ---
 
@@ -194,7 +194,5 @@ The diagram above depicts the shock-layer temperature over the entry velocity. I
 ![](figures/haae-d01_intro_Seite_36.png)
 
 You do not have to get and read the references on this slide. However, it is mandatory to cite the sources, from which you use the material (and especially images) in your own work. Therefore, I have done it. If your professional life leads you in this direction, however, you find here a collection of books you may wish to get and read.
-
-![](figures/haae-d01_intro_Seite_37.png)
 
 Please note that I only exchange slides that have changes. Therefore, unchanged slides may show an older version number.
