@@ -130,7 +130,7 @@ While the equations on the last slides are useful to calculate desired values, d
 
 ![](figures/haae-d03_ballistic_Seite_23.png)
 
-This diagram shows (again dimensionless!) deceleration over altitude for different flight path angles. As you can see, the larger the flight path angle, the higher the deceleration at every altitude. The dashed line connects the points of maximal deceleration. You can see: the larger the flight path angle, the deeper in the atmosphere is the maximal deceleration.
+This diagram shows (again dimensionless!) deceleration over altitude for different flight path angles. As you can see, the larger the flight path angle, the higher the deceleration at every altitude. The dashed line connects the points of maximal deceleration. You can see: the larger the flight path angle, the deeper in the atmosphere does the maximal deceleration take place.
 
 ---
 
@@ -142,7 +142,7 @@ This diagram shows the influence of the flight path angle onto the maximal decel
 
 ![](figures/haae-d03_ballistic_Seite_25.png)
 
-This is just a magnification of the diagram on the last slide, so that you better see the range $0^\circ \le\gamma\le 10^\circ$. Note that these are not two straight lines, they still have the shape of a sine curve, although this is hardly visible (because for $\gamma\le 10^\circ$, the difference between $\gamma$ (in radians) and $\sin(\gamma)$ is less than $0.51\%$).
+This is just a magnification of the diagram on the last slide, so that you better see the range $0^\circ \le\gamma\le 10^\circ$. Note that these are not two straight lines, they still have the shape of a sine curve, although this is hardly visible (because for $\gamma\le 10^\circ$, the difference between $\gamma$ (in radians) and $\sin(\gamma)$ is less than 0.51\%).
 
 ---
 
