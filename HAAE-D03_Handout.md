@@ -1,11 +1,11 @@
 # Ballistic Atmospheric Entry
-**Version 24.0, Last Update: 21 Apr 2024**
+**Version 24.0, Last Update: 07 Mar 2025**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
 ![](figures/haae-d03_ballistic_Seite_01.png)
 
-In this lecture we will have a look at ballistic atmospheric entries. One has to be a bit careful with what "ballistic entry" means. Sometimes it means that all forces except drag are neglected. More precisely, this is a "ballistic calculation". Sometimes it means that the vehicle doesn't produce lift (but gravity still acts onto the vehicle). More precisely, this is a "ballistic vehicle". Typically, like in this lecture, one assumes both, doing ballistic calculations for ballistic vehicles. In the next lecture, we will then calculate the "real entry" (with gravity) of a ballistic vehicle and compare it with our results from this lecture.
+In this lecture we will have a look at ballistic atmospheric entries. One has to be a bit careful with what "ballistic entry" means. Sometimes it means that all forces except aerodynamic drag are neglected. More precisely, this is a "ballistic calculation". Sometimes it means that the vehicle doesn't produce lift (but gravity still acts onto the vehicle). More precisely, this is a "ballistic vehicle". Typically, like in this lecture, one assumes both, doing ballistic calculations for ballistic vehicles. In the next lecture, we will then calculate the "real entry" (with gravity) of a ballistic vehicle and compare it with our results from this lecture.
 
 # Ballistic Entry Dynamics
 
@@ -20,7 +20,7 @@ Actually, the third assumption follows from the second one. If there is no force
 Note that eq. (1) results from the simple application of Newton's second law to the given situation depicted on the last slide. Since everything happens in velocity direction, we do not have to deal with a vector differential equation but only with a simple scalar differential equation. The description of most mechanical problems starts with such an **equation of motion**. Unfortunately, for many (or even most) real-world problems, nature is not nice to us. The equations do not tell us how the velocity $V$ is at time $t$, it only tells us how $V$ changes, i.e., $dV/dt$. We have to find $V(t)$ by integration, which is often so difficult that it cannot be done analytically. Given our simplifications, it is possible. But even for this much simplified problem – as you will see – an analytical calculation gets relatively complex.
 
 It is very useful to merge all entry-body-related parameters into one single parameter, because then, the whole entry depends on just this single parameter. All vehicles with the same $\beta$ will have the same variation of velocity $V$ over altitude $h$. 
-The close relative of the ballistic parameter, by the way, is also used in health, sports, and medicine, and is called body mass index or BMI. Your BMI is your weight (or, more accurately, mass) divided by the square of your body height. So you can visualize the ballistic parameter as the BMI of an entry vehicle.
+The close relative of the ballistic coefficient, by the way, is also used in health, sports, and medicine, and is called body mass index or BMI. Your BMI is your weight (or, more accurately, mass) divided by the square of your body height. So you can visualize the ballistic coefficient as the BMI of an entry vehicle.
 
 ---
 
@@ -46,9 +46,9 @@ Why do we use a standard atmophere and not the real one? Well, if you do not use
 
 ![](figures/haae-d03_ballistic_Seite_07.png)
 
-It is a good exercise to derive eq. (7) by yourself. A good aerospace engineer should be able to do this calculation in a pub, in the middle of the night, after having consumed too much beer, on the back of an envelope. There are two parameters in this equation, the ground density $\rho_0=\rho(h=0)$ and the atmospheric scale height $H$, which is an assembly of other constants (see slide 9). Note that the given values for $\rho_0$ and $H$ are not the real values on ground but values that give the best overall fit for $0\,\mathrm{km} \le h\le 122\,\mathrm{km}$. 
+It is a good exercise to derive eq. (7) by yourself. A good aerospace engineer should be able to do this calculation in a pub, in the middle of the night, after having consumed too much beer, on the back of an envelope. There are two parameters in this equation, the ground density $\rho_0=\rho(h=0)$ and the atmospheric scale height $H$, which is an assembly of other constants (see slide 9). Note that the given values for $\rho_0$ and $H$ are not the real values on ground but values that give the best overall fit for 0 km $\le h\le$ 122 km. 
 
-The plot shows density over altitude, but good engineers plot exponential functions not like this. Nobody can read the values in the range $40\,\mathrm{km}\le h\le 122\,\mathrm{km}$.  
+The plot shows density over altitude, but good engineers plot exponential functions not like this. Nobody can read the values in the range 40 km $\le h\le$ 122 km.  
 
 ---
 
