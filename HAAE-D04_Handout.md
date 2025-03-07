@@ -23,7 +23,7 @@ We will now state the equations of motion in the wind coordinate system, conside
 
 ![](figures/haae-d04_lifting_Seite_03.png)
 
-The right side of eq. (1) gives the inertial acceleration of a body that is moving with velocity $\boldsymbol{V}$ and (non-inertial) acceleration $\vec{\dot{V}}$ in the wind coordinate system. $\boldsymbol{\omega}$ is the angular velocity vector with which the wind coordinate system rotates with respect to the inertial coordinate system. The wind coordinate system rotates because the flight path angle changes ($\dot\gamma$), but also because the entry vehicle flies around the Earth ($\dot\theta$). According to the right hand rule, $\vec{\omega}$ points into the $\hat{z}$-direction for $\dot\theta+\dot\gamma > 0$. This way, one obtains the inertial acceleration as the right side of eq. (4). Eq. (5) is Newton's second law, applied to the given situation. In eq. (6), the forces are decomposed along the $\hat{x}$ and $\hat{y}$-direction. Eq. (7) shows the final result, where both the acceleration and the forces are decomposed along the $\hat{x}$ and $\hat{y}$-direction.
+The right side of eq. (1) gives the inertial acceleration of a body that is moving with velocity $\vec{V}$ and (non-inertial) acceleration $\dot{\vec{V}}$ in the wind coordinate system. $\boldsymbol{\omega}$ is the angular velocity vector with which the wind coordinate system rotates with respect to the inertial coordinate system. The wind coordinate system rotates because the flight path angle changes ($\dot\gamma$), but also because the entry vehicle flies around the Earth ($\dot\theta$). According to the right hand rule, $\vec{\omega}$ points into the $\hat{z}$-direction for $\dot\theta+\dot\gamma > 0$. This way, one obtains the inertial acceleration as the right side of eq. (4). Eq. (5) is Newton's second law, applied to the given situation. In eq. (6), the forces are decomposed along the $\hat{x}$ and $\hat{y}$-direction. Eq. (7) shows the final result, where both the acceleration and the forces are decomposed along the $\hat{x}$ and $\hat{y}$-direction.
 
 ---
 
@@ -73,13 +73,14 @@ The blue curve shows our analytical result. Remember: $\gamma_0=\text{const}$ (w
 
 ![](figures/haae-d04_lifting_Seite_11.png)
 
-Now let's compare the deceleration. It is even worse than in our analytical calculation. For the above noted conditions, the maximal deceleration increases from about $5.5\,\mathrm{g}$ to about $9\,\mathrm{g}$.
+Now let's compare the deceleration. It is even worse
+ than in our analytical calculation. For the above noted conditions, the maximal deceleration increases from about 5.5 g to about 9 g.
 
 ---
 
 ![](figures/haae-d04_lifting_Seite_12.png)
 
-The velocity-over-altitude curve shows that both curves are quite similar for high velocities but differ considerably for low velocities $\lesssim 1\,\mathrm{km/s}$. Now, the entry vehicle does not get "stuck in the air" anymore but reaches the ground with the free-fall velocity.
+The velocity-over-altitude curve shows that both curves are quite similar for high velocities but differ considerably for low velocities $\lesssim$ 1 km/s. Now, the entry vehicle does not get "stuck in the air" anymore but reaches the ground with the free-fall velocity.
 
 ---
 
@@ -222,7 +223,7 @@ Another major advantage of lifting entry is that you have more control over your
 
 ![](figures/haae-d04_lifting_Seite_36.png)
 
-This plot shows you the landing footprint for the Gemini capsules. It is approximately an ellipse with a length of about $550\,\mathrm{km}$ and a width of about $100\,\mathrm{km}$. As you can see, most capsules hit the desired landing site quite accurately, but not all of them. Please consult Wikipedia, if you want to know what went wrong for those missions.
+This plot shows you the landing footprint for the Gemini capsules. It is approximately an ellipse with a length of about 550 km and a width of about 100 km. As you can see, most capsules hit the desired landing site quite accurately, but not all of them. Please consult Wikipedia, if you want to know what went wrong for those missions.
 
 ---
 
