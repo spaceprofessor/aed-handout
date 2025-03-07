@@ -148,7 +148,7 @@ This is just a magnification of the diagram on the last slide, so that you bette
 
 ![](figures/haae-d03_ballistic_Seite_26.png)
 
-As you can see from the table, Titan and Mars allow even large flight path angles for entry. For Earth, $\gamma = 2.5^\circ$ is already critical for a human mission. So, $\gamma = 2.5^\circ$ is already close to the undershoot boundary or even below (for astronauts that have spent months in weightlessness). For small flight path angles, entries at the giant planets are *not much* worse than at Earth, except for Jupiter, where even for $\gamma = 2.5^\circ$, $100\,\mathrm{g}$ are reached.
+As you can see from the table, Titan and Mars allow even large flight path angles for entry. For Earth, $\gamma = 2.5^\circ$ is already critical for a human mission. So, $\gamma = 2.5^\circ$ is already close to the undershoot boundary or even below (for astronauts that have spent months in weightlessness). For small flight path angles, entries at the giant planets are *not much* worse than at Earth, except for Jupiter, where even for $\gamma = 2.5^\circ$, $100$ g are reached.
 
 # Ballistic Entry Loads
 
@@ -166,7 +166,7 @@ $C_\ell$ is called "load factor". Note that $y$ is by definition just a "new" me
 
 ![](figures/haae-d03_ballistic_Seite_28.png)
 
-Of course the derivation of the load $f$ with respect to our new altitude $y$ must be zero for a maximum. The altitude where $y$ is maximal is termed $y_m$. So the index "$m$" means "where the load is maximal".
+Of course the derivation of the load $f$ with respect to our new altitude $y$ must be zero for a maximum. The altitude where $y$ is maximal is termed $y_m$. So the index "m" means "where the load is maximal".
 
 ---
 
@@ -184,19 +184,19 @@ So let us apply our new mathematical "tool" first for the maximal deceleration.
 
 ![](figures/haae-d03_ballistic_Seite_31.png)
 
-As you can see, we get exactly the same results with this very different approach. Therefore, we have now confidence that load analysis is correct and we can apply it now to dynamic pressure and heating rate.
+As you can see, we get exactly the same results with this very different approach. Therefore, we can now have confidence that our load analysis is correct, so that we can apply it now to dynamic pressure and heating rate.
 
 ---
 
 ![](figures/haae-d03_ballistic_Seite_32.png)
 
-It is interesting to see that the equation for the maximal dynamic pressure is very similar to the equation for the maximal deceleration. Simply $q_{\max} = \beta \cdot (-dV/dt)_{\max}$. It was already astonishing that the maximal deceleration does not depend on the ballistic coefficient $\beta$. But the maximal dynamic pressure does! So the maximal dynamic pressure (and thus dynamic and structural load) is larger for a cannonball-like entry vehicle than for a balloon-like entry vehicle (and actually a balloon-like vehicle with a low $\beta$ may survive an atmospheric entry, if the material is strong enough). 
+It is interesting to see that the equation for the maximal dynamic pressure is very similar to the equation for the maximal deceleration. Simply $q_{\max} = \beta \cdot (-dV/dt)_{\max}$. It was already astonishing that the maximal deceleration does not depend on the ballistic coefficient $\beta$. But the maximal dynamic pressure does! So the maximal dynamic pressure (and thus dynamic and structural load) is larger for a cannonball-like entry vehicle than for a balloon-like entry vehicle (and actually a balloon-like vehicle with a low $\beta$ may even survive an atmospheric entry, if the material is strong enough). 
 
 ---
 
 ![](figures/haae-d03_ballistic_Seite_33.png)
 
-You can see that the maximal heat flux happens before the maximal dynamic pressure and thus structural load. This physical fact killed the seven astronauts of the Space Shuttle Columbia on 01 Feb 2003. During the launch, a piece of foam insulation broke off from the Space Shuttle external tank and struck the left wing of the orbiter. When Columbia re-entered the atmosphere, the damage allowed hot atmospheric gases to penetrate the wing and to heat up the its internal structure. The later structural load maximum then caused the wing to break apart. If the maximal structural load would have acted onto the still cold wing structure, the Shuttle may have survived entry and so the crew. But, unfortunately, $e^{-1/6} > e^{-1/2}$.
+You can see that the maximal heat flux happens before the maximal dynamic pressure and thus structural load. This physical fact killed the seven astronauts of the Space Shuttle Columbia on 01 Feb 2003. During the launch, a piece of foam insulation broke off from the Space Shuttle external tank and struck the left wing of the orbiter. When Columbia re-entered the atmosphere, the damage allowed hot atmospheric gases to penetrate the wing and to heat up its internal structure. The later structural load maximum then caused the wing to break apart. If the maximal structural load would have acted onto the still cold wing structure, the Shuttle may have survived entry and so the crew. But, unfortunately, $e^{-1/6} > e^{-1/2}$.
 
 ---
 
@@ -208,13 +208,13 @@ As you can see, for heating, a high entry velocity $V_0$ is much more a problem 
 
 ![](figures/haae-d03_ballistic_Seite_35.png)
 
-This diagram gives you an impression of typical maximal heating rates and maximal radiation equilibrium surface temperatures at the stagnation point. For the latter, it is assumed that all the incoming heat is radiated away, thus according to Planck's law: $\dot Q_{\max} = \varepsilon \sigma (T_S)_{\max}^4$, where $\varepsilon$ is the emissivity and $\sigma$ is the Stefan-Boltzmann-constant (more on slide 40).
+This diagram gives you an impression of typical maximal heating rates and maximal radiation equilibrium surface temperatures at the stagnation point. For the latter, it is assumed that all the incoming heat is radiated away, thus according to Planck's law: $\dot Q_{\max} = \varepsilon \sigma (T_S)_{\max}^4$, where $\varepsilon$ is the emissivity and $\sigma$ is the Stefan-Boltzmann constant (more on slide 40).
 
 ---
 
 ![](figures/haae-d03_ballistic_Seite_36.png)
 
-The heating rate strongly depends on the entry type. Vehicles that are entering very quickly (with a large $\gamma$) like a ballistic missile, have very high peak heating rates for a short time. For a gliding entry, however, where $\gamma$ is small, heating rates are lower but act for a longer time. "Btu" stands for "British thermal unit". It is defined as the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit. And, well, the abbreviation for the second in the international SI system is simply "$\mathrm{s}$" and not "$\mathrm{sec.}$" or "$\mathrm{sec}$".
+The heating rate strongly heavily on the entry type. Vehicles that enter very quickly (with a large $\gamma$), such as a ballistic missile, will have very high peak heating rates for a short time. For a gliding entry, however, where $\gamma$ is small, heating rates are lower but act for a longer time. "Btu" stands for "British thermal unit". It is defined as the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit. And, well, the abbreviation for the second in the international SI system is simply "s" and not "sec" or "sec.".
 
 # Thermal Protection
 
