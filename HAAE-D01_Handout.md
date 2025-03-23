@@ -1,5 +1,5 @@
 # Indroduction to Atmospheric Entry
-**Version 24.0, Last Update: 06 Mar 2025**
+**Version 24.0, Last Update: 23 Mar 2025**
 
 *This handout was created exclusively for the course "Hypersonic Aerodynamics and Atmospheric Entry" at FH Aachen University of Applied Sciences by Prof. Dr. Bernd Dachwald. It contains copyright-protected material. Therefore, it may **not** be used for purposes other than educational and scientific work by students of FH Aachen University of Applied Sciences. It is not allowed to redistribute it in any form.*
 
@@ -67,7 +67,7 @@ During its descent, ESA's Huygens probe made many spectacular images. This panor
 
 ![](figures/haae-d01_intro_Seite_12.png)
 
-The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe after touchdown. The temperature at the landing site was -179°C and the pressure was 1.5 mbar.
+The left image is an artist impression of the Huygens probe after landing. You can see that it did not land in a lake (as many hoped and many feared) but on land. The right image shows a real photograph that was made by the probe after touchdown. The temperature at the landing site was -179°C and the pressure was 1.5 bar.
 
 ---
 
@@ -111,7 +111,7 @@ To brake, the thrust force of the retro-rocket must be against the entry body's 
 
 ![](figures/haae-d01_intro_Seite_21.png)
 
-You can see that the lift-to-drag ratio, $L/D$, is not constant but varies along the entry trajectory. More on this in the lecture of Prof. Havermann
+You can see that the lift-to-drag ratio, $L/D$, is not constant but varies along the entry trajectory. At the initial entry, the Shuttle’s angle of attack is very high to spread out the intense heat over the  underside with ceramic heat-protection tiles. That large angle of attack produces more drag relative to lift, so $L/D$ tends to be relatively low. In the lower atmosphere, the Shuttle flies more like a glider (though a rather poor one compared to regular airplanes). With a more moderate angle of attack, the $L/D$ rises (though it still remains relatively low versus typical aircraft).
 
 ---
 
